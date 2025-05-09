@@ -19,19 +19,24 @@ A categorized guide for interns and engineers to build strong foundations in ful
 
 > Core practices that apply to all engineers.
 
-- **[Asking for Help](#asking-for-help)**
-- **[Clean Code](#clean-code)**
-- **[Code Reviews](#code-reviews)**
-- **[Debugging](#debugging)**
-- **[Documentation](#documentation)**
-- **[Estimation](#estimation)**
-- **[Prioritization for Engineering](#prioritization-for-engineering)**
-- **[Refactoring](#refactoring)**
-- **[Security Principles](#security-principles)**
-- **[Software Architecture](#software-architecture)**
-- **[Software Design Docs](#software-design-docs)**
-- **[Technical Debt](#technical-debt)**
-- **[Testing & Quality](#testing--quality)**
+### Collaboration & Communication
+- **[Asking for Help](collaboration/asking-for-help.md)**
+- **[Code Reviews](collaboration/code-reviews.md)**
+- **[Documentation](collaboration/documentation.md)**
+- **[Estimation](collaboration/estimation.md)**
+- **[Prioritization for Engineering](collaboration/prioritization-for-engineering.md)**
+- **[Software Design Docs](collaboration/software-design-docs.md)**
+
+### Code Quality & Maintenance
+- **[Clean Code](code-quality/clean-code.md)**
+- **[Refactoring](code-quality/refactoring.md)**
+- **[Technical Debt](code-quality/technical-debt.md)**
+- **[Debugging](code-quality/debugging.md)**
+- **[Testing & Quality](code-quality/testing-quality.md)**
+
+### System Design & Principles
+- **[Software Architecture](system-design/software-architecture.md)**
+- **[Security Principles](system-design/security-principles.md)**
 
 ---
 
@@ -39,11 +44,11 @@ A categorized guide for interns and engineers to build strong foundations in ful
 
 > Server-side topics and scalable service design.
 
-- **[Microservices](#microservices)**
-- **[Software Architecture](#software-architecture)**
-- **[Security Principles](#security-principles)**
-- **[Technical Debt](#technical-debt)**
-- **[Testing & Quality](#testing--quality)**
+- **[Microservices](be/microservices.md)**
+- **[Software Architecture](be/software-architecture.md)**
+- **[Security Principles](be/security-principles.md)**
+- **[Technical Debt](be/technical-debt.md)**
+- **[Testing & Quality](be/testing-quality.md)**
 
 ---
 
@@ -51,9 +56,9 @@ A categorized guide for interns and engineers to build strong foundations in ful
 
 > Building great user interfaces with reliability and performance.
 
-- **[Web Engineering](#web-engineering)**
-- **[Testing & Quality](#testing--quality)**  
-- **[Documentation](#documentation)**
+- **[Web Engineering](fe/web-engineering.md)**
+- **[Testing & Quality](fe/testing-quality.md)**  
+- **[Documentation](fe/documentation.md)**
 
 ---
 
@@ -61,7 +66,7 @@ A categorized guide for interns and engineers to build strong foundations in ful
 
 > Designing and managing structured data.
 
-- **[Data Modeling](#data-modeling)**
+- **[Data Modeling](db/data-modeling.md)**
 
 ---
 
@@ -69,10 +74,10 @@ A categorized guide for interns and engineers to build strong foundations in ful
 
 > Developing with the user and business impact in mind.
 
-- **[Product Development Flows](#product-development-flows)**
-- **[Product-Focused Engineering](#product-focused-engineering)**
-- **[Prioritization for Engineering](#prioritization-for-engineering)**
-- **[Estimation](#estimation)**
+- **[Product Development Flows](product/product-development-flows.md)**
+- **[Product-Focused Engineering](product/product-focused-engineering.md)**
+- **[Prioritization for Engineering](product/prioritization-for-engineering.md)**
+- **[Estimation](product/estimation.md)**
 
 ---
 
@@ -80,116 +85,12 @@ A categorized guide for interns and engineers to build strong foundations in ful
 
 > Communicating clearly through code, docs, and messages.
 
-- **[Documentation](#documentation)**
-- **[Tech Writing](#tech-writing)**
-- **[Software Design Docs](#software-design-docs)**
-- **[Asking for Help](#asking-for-help)**
-- **[Code Reviews](#code-reviews)**
-
----
-
-## 🔎 Detailed Topics
-
-### Asking for Help
-
-- [Docs](ask-for-help.md)
-
-### Clean Code
-
-- [Clean Code JavaScript](https://github.com/ryanmcdermott/clean-code-javascript)
-- Book: *Clean Code* by Robert C. Martin
-
-### Code Reviews
-
-- [Google Code Review Guide](https://google.github.io/eng-practices/review/)
-- Focus on readability, testability, and scope
-
-### Data Modeling
-
-- [Intro to NoSQL by Martin Fowler](https://martinfowler.com/articles/nosql-intro.html)
-- Normalize only when it makes access harder
-
-### Debugging
-
-- [How to Get Better at Debugging – Julia Evans](https://jvns.ca/blog/2023/02/20/how-to-get-better-at-debugging/)
-- Use tools like breakpoints, `git bisect`, network inspector
-
-### Documentation
-
-- [Diátaxis Framework](https://diataxis.fr/)
-- Internal docs: README, onboarding, API reference
-
-### Estimation
-
-- [Why Engineers Underestimate Time – Jeff Atwood](https://blog.codinghorror.com/how-good-an-estimator-are-you/)
-- Break into tasks, estimate range not single number
-
-### Microservices
-
-- [Microservices Article – Martin Fowler](https://martinfowler.com/articles/microservices.html)
-- Think: contracts, independence, orchestration
-
-### Prioritization for Engineering
-
-- [RICE Prioritization](https://www.intercom.com/blog/rice-simple-prioritization-framework/)
-- Balance tech improvements with product needs
-
-### Product Development Flows
-
-- [Shape Up – Basecamp](https://basecamp.com/shapeup)
-- Understand full dev cycle: idea → dev → release → feedback
-
-### Product-Focused Engineering
-
-- [The Product Mindset for Engineers](https://www.reforge.com/blog/the-product-mindset)
-- Think in terms of outcomes, not just tasks
-
-### Refactoring
-
-- [Refactoring.Guru](https://refactoring.guru/)
-- Keep changes small and intention clear
-
-### Security Principles
-
-- [OWASP Top 10](https://owasp.org/www-project-top-ten/)
-- Watch out for XSS, SQLi, CSRF, etc.
-
-### Software Architecture
-
-- [The 12 Factor App](https://12factor.net/)
-- Understand separation of concerns, boundaries
-
-### Software Design Docs
-
-- [How to Write a Design Doc – Uber](https://www.uber.com/blog/design-doc-template/)
-- Must-haves: context, goals, options, timeline, tradeoffs
-
-### Technical Debt
-
-- Shortcuts are fine—if tracked and intentional
-- Create tickets and revisit frequently
-
-### Testing & Quality
-
-- [Testing Pyramid – Martin Fowler](https://martinfowler.com/bliki/TestPyramid.html)
-- Tools: Jest, Cypress, Postman, RSpec, etc.
-
-### Tech Writing
-
-- [Technical Writing One – Google](https://developers.google.com/tech-writing/one)
-- Clear, concise, and structured writing
-
-### Web Engineering
-
-- [Frontend Performance Checklist – web.dev](https://web.dev/performance/)
-- Focus: speed, accessibility, responsiveness, security
-
----
+- **[Documentation](writing-communication/documentation.md)**
+- **[Tech Writing](writing-communication/tech-writing.md)**
+- **[Software Design Docs](writing-communication/software-design-docs.md)**
+- **[Asking for Help](writing-communication/asking-for-help.md)**
+- **[Code Reviews](writing-communication/code-reviews.md)**
 
 ## 🙌 Final Notes
-
-- Pick 1–2 topics per week to deep dive.
-- Share learnings in Slack or 1:1s.
-- Bookmark and contribute as you grow.
 
 ---
