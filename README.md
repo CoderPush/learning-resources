@@ -19,13 +19,15 @@ A categorized guide for interns and engineers to build strong foundations in ful
 
 > Core practices that apply to all engineers.
 
-### Collaboration & Communication
-- **[Asking for Help](collaboration/asking-for-help.md)**
-- **[Code Reviews](collaboration/code-reviews.md)**
-- **[Documentation](collaboration/documentation.md)**
-- **[Estimation](collaboration/estimation.md)**
-- **[Prioritization for Engineering](collaboration/prioritization-for-engineering.md)**
-- **[Software Design Docs](collaboration/software-design-docs.md)**
+### ✍️ Writing & Communication
+
+> Communicating clearly through code, docs, and messages.
+
+- **[Documentation](communication/documentation.md)**
+- **[Tech Writing](communication/tech-writing.md)**
+- **[Software Design Docs](communication/software-design-docs.md)**
+- **[Asking for Help](communication/asking-for-help.md)**
+- **[Code Reviews](code-quality/code-review.md)**
 
 ### Code Quality & Maintenance
 - **[Clean Code](code-quality/clean-code.md)**
@@ -33,10 +35,7 @@ A categorized guide for interns and engineers to build strong foundations in ful
 - **[Technical Debt](code-quality/technical-debt.md)**
 - **[Debugging](code-quality/debugging.md)**
 - **[Testing & Quality](code-quality/testing-quality.md)**
-
-### System Design & Principles
-- **[Software Architecture](system-design/software-architecture.md)**
-- **[Security Principles](system-design/security-principles.md)**
+- **[Code Reviews](code-quality/code-review.md)**
 
 ---
 
@@ -44,11 +43,11 @@ A categorized guide for interns and engineers to build strong foundations in ful
 
 > Server-side topics and scalable service design.
 
+### System Design & Principles
+- **[Software Architecture](system-design/software-architecture.md)**
+- **[Security Principles](system-design/security.md)**
 - **[Microservices](be/microservices.md)**
-- **[Software Architecture](be/software-architecture.md)**
-- **[Security Principles](be/security-principles.md)**
-- **[Technical Debt](be/technical-debt.md)**
-- **[Testing & Quality](be/testing-quality.md)**
+- **[Backend Roadmap](be/backend-track.md)**
 
 ---
 
@@ -56,9 +55,7 @@ A categorized guide for interns and engineers to build strong foundations in ful
 
 > Building great user interfaces with reliability and performance.
 
-- **[Web Engineering](fe/web-engineering.md)**
-- **[Testing & Quality](fe/testing-quality.md)**  
-- **[Documentation](fe/documentation.md)**
+- **[Web Engineering](FE/web-engineering.md)**
 
 ---
 
@@ -74,22 +71,13 @@ A categorized guide for interns and engineers to build strong foundations in ful
 
 > Developing with the user and business impact in mind.
 
-- **[Product Development Flows](product/product-development-flows.md)**
-- **[Product-Focused Engineering](product/product-focused-engineering.md)**
-- **[Prioritization for Engineering](product/prioritization-for-engineering.md)**
-- **[Estimation](product/estimation.md)**
+- **[Product-Focused Engineering](product/product-focused.md)**
+- **[Prioritization for Engineering](product/prioritization.md)**
+- **[Estimation](communication/estimation.md)**
 
 ---
 
-## ✍️ Writing & Communication
 
-> Communicating clearly through code, docs, and messages.
-
-- **[Documentation](writing-communication/documentation.md)**
-- **[Tech Writing](writing-communication/tech-writing.md)**
-- **[Software Design Docs](writing-communication/software-design-docs.md)**
-- **[Asking for Help](writing-communication/asking-for-help.md)**
-- **[Code Reviews](writing-communication/code-reviews.md)**
 
 ## 🙌 Final Notes
 
