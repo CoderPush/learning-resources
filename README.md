@@ -92,7 +92,7 @@ A categorized guide for interns and engineers to build strong foundations in ful
 
 ### Asking for Help
 
-- https://practicahq.com/skill/asking-for-help
+- [Docs](ask-for-help.md)
 
 ### Clean Code
 
